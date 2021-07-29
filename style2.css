@@ -148,7 +148,7 @@ footer {
 .banner {
 	/* Gradient Fits in very nice! */
 	background: linear-gradient(180deg, SandyBrown, transparent 90%), 
-	url('../img/background.jpg');
+	url('https://blautoothdmand.files.wordpress.com/2017/10/train_18.png?w=809');
 
 	background-size: cover;
 	background-repeat: no-repeat;
