@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>James Sinnott - Contact</title>
+
+		<link rel="stylesheet" type="text/css" href="normalize2.css">
+		<link rel="stylesheet" type="text/css" href="style2.css">
+	</head>
+	
+	<body>
+		<header class="clearfix">
+			<div class="logo-wrapper">
+				<a href="index.html"><img class="logo" src="img/harp.png" alt="Harp"></a>
+			</div>
+			<div class="name">James Sinnott</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a class="current" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="wrapper clearfix">
+			<h1>Contact Me</h1>
+			<div>
+				<div class="svg-icon-section">
+					<p><u><img class="icon" src="img/phone.svg"><b>Phone</b></u></p>
+					<p>(+353) 0873689476</p>
+				</div>
+				<div class="svg-icon-section">
+					<p><u><img class="icon" src="img/email.svg"><b>Email</b></u></p>
+					<p>JamesRichardSinnott@gmail.com</p>
+				</div>
+				<div class="svg-icon-section">
+					<p><u><img class="icon" src="img/twitter.svg"><b>Twitter</b></u></p>
+					<p>@J181294S</p>
+				</div>
+			</div>
+			<div>
+				<!-- action = "URL" -->
+				<form action="https://formspree.io/JamesRichardSinnott@gmail.com" method="POST">
+					<h2>Send me a message</h2>
+					<label for="name">Name</label>
+					<input type="text" id="name" name="user_name">
+					<label for="email">Email</label>
+					<input type="text" id="email" name="user_email">
+					<label for="message">Your message</label>
+					<textarea id="message" name="user_message"></textarea>
+
+					<div id="status">
+						<!-- Informs user if there is a problem with something they sent in the fields above -->
+					</div>
+
+					<button id="submit" type="submit">Submit</button>
+				</form>
+			</div>
+		</div>
+
+		<footer>
+			<div class="copyright">
+				Copyright &copy James Sinnott 2021
+			</div>
+			<ul class="social">
+				<li><a href="https://www.linkedin.com/in/jamessinnott1/ target="_blank""><img class="social-img" src="img/linkedin.png"></a></li>
+				<li><a href="https://twitter.com/J181294S" target="_blank"><img class="social-img" src="img/twitter.png"></a></li>
+				<li><a href="https://github.com/JamesSinnott1994" target="_blank"><img class="social-img" src="img/github.png"></a></li>
+			</ul>
+		</footer>
+		
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/email.js"></script>
+	</body>
+</html>

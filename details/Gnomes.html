@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>James Sinnott - Projects</title>
+
+		<link rel="stylesheet" type="text/css" href="../normalize2.css">
+		<link rel="stylesheet" type="text/css" href="../style2.css">
+	</head>
+	
+	<body>
+		<header class="clearfix">
+			<div class="logo-wrapper">
+				<a href="../index.html"><img class="logo" src="../img/harp.png" alt="Harp"></a>
+			</div>
+			<div class="name">James Sinnott</div>
+			<nav>
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a class="current" href="../projects.html">Projects</a></li>
+					<li><a href="../about.html">About</a></li>
+					<li><a href="../contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+			<div class="wide-wrapper clearfix">
+
+				<div class="project-section clearfix">
+
+					<div class="project-image-wrapper">
+						<iframe src="https://player.vimeo.com/video/282581080" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+
+					<div class="project-description-wrapper">
+						<h1>Clash of Gnomes</h1>
+						<h3>Project Description:</h3>
+						<p>This was the final group project that I worked on in my fourth year in college.</p>
+						<p>Clash of Gnomes is a "Tower Defence" kind of game where we incorporated much of what we had learned throughout the year in subjects such as Online Gameing and AI (Artificial Intelligence).</p>
+						<p>The basic idea in this game was that there would be two bases, the bases were castles, and you would create gnomes and try and destroy the enemy base, and the enemy would try and do the same to you, and you could also create your own towers and place them on the map to attack the enemy gnomes.</p>
+						<p>We used the A* Pathfinding algorithm to allow our gnomes to choose how best to reach a certain area that the user clicked. The algorithm would determine the best route to take based on a weighted system e.g. a gnome will try to travel on the path to reach their destination as much as possible because it is faster to travel on the path than on the grass.</p>
+						<p>The AI component involed Fuzzy Logic, which allowed the enemy AI to judge how many gnomes were attacking his based, and then based on the amount of gnomes the enemy would generate an appropriate response, such as building more towers and creating more gnomes.</p>
+						<p>The Online Gaming element involved two people playing against each other.The player who chose to host the game became the authoritative host. The authoritative host syncs the game states every 5 seconds by sending all game info to the joined player, and that was done through serialised commands.</p>
+						<h3>Project Duration:</h3>
+						<p>February 2016 - March 2016 (1 Month)</p>
+						<h3>Technologies used:</h3>
+						<ul class="technologies">
+							<li>C++</li>
+							<li>SDL</li>
+							<li>Github</li>
+							<li>Jira</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div>
+					<a href="../projects.html">&#8592 Back to main Projects page</a>
+				</div>
+			
+			</div>
+
+		<footer>
+			<div class="copyright">
+				Copyright &copy James Sinnott 2020
+			</div>
+			<ul class="social">
+				<li><a href="https://www.linkedin.com/in/jamessinnott1/ target="_blank""><img class="social-img" src="../img/linkedin.png"></a></li>
+				<li><a href="https://twitter.com/J181294S" target="_blank"><img class="social-img" src="../img/twitter.png"></a></li>
+				<li><a href="https://github.com/JamesSinnott1994" target="_blank"><img class="social-img" src="../img/github.png"></a></li>
+			</ul>
+		</footer>
+
+		<script src="../js/script.js"></script>
+	</body>
+</html>
