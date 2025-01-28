@@ -186,36 +186,17 @@ footer {
 }
 
 .proficient {
-	background-color: green;
+	background-color: SteelBlue;
 	color: white;
-}
-.semi-proficient {
-	background-color: #e8d71c;
-	color: black;
-}
-.prior-experience {
-	background-color: red;
-}
-.proficient-b {
-	background-color: green;
-	color: white;
-	padding: 2px;
-	border: 2px solid black;
-	border-radius: 10px;
-}
-.semi-proficient-b {
-	background-color: #e8d71c;
-	padding: 2px;
-	border: 2px solid black;
-	border-radius: 10px;
-}
-.prior-experience-b {
-	background-color: red;
-	padding: 2px;
-	border: 2px solid black;
-	border-radius: 10px;
 }
 
+.proficient-b {
+	background-color: SteelBlue;
+	color: white;
+	padding: 2px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
 
 q {
 	font-style: italic;
